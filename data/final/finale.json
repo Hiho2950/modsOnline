@@ -1,5 +1,4 @@
 {
-	"song": {
 		"player1": "bf-miedoso",
 		"notes": [
 			{
@@ -13000,5 +12999,4 @@
 		"stage": "finalem",
 		"needsVoices": true,
 		"bpm": 200
-	}
 }
