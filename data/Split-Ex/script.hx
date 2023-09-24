@@ -1,6 +1,4 @@
-import flixel.group.FlxSpriteGroup;
 
-function onCreate() {
     var sky = new FlxSprite(-300, -60);
     setSpriteImage(sky, "BG1");
     sky.scrollFactor.set(0.5,0.5);
@@ -35,7 +33,7 @@ function onCreate() {
     add(blu);
     add(mini);
     add(floor1);
-}
+
 function onSongStart() {
     game.boyfriend.x = 950;
     game.boyfriend.y = 270;
