@@ -8,8 +8,7 @@ function onCreate() {
     sky.scale.set(0.5, 0.5);
 
     add(sky);
-}
-function onSongStart() {
+
     boyfriend.x = 950;
     boyfriend.y = 270;
     gf.x = 990;
