@@ -30,11 +30,11 @@ function onCreate() {
     floor1.scrollFactor.set(0.75,0.75);
     floor1.scale.set(0.5, 0.5);
 
-    game.insert(game.members.indexOf(getLowestCharacterGroup()), sky);
-    game.insert(game.members.indexOf(getLowestCharacterGroup()), floor2);
-    game.insert(game.members.indexOf(getLowestCharacterGroup()), blu);
-    game.insert(game.members.indexOf(getLowestCharacterGroup()), mini);
-    game.insert(game.members.indexOf(getLowestCharacterGroup()), floor1);
+    game.add(sky);
+    game.add(floor2);
+    game.add(blu);
+    game.add(mini);
+    game.add(floor1);
 }
 function onSongStart() {
     game.boyfriend.x = 950;
