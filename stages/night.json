@@ -2,7 +2,7 @@
     "objects": [
         {
             "name": "sky",
-            "position": [150,189],
+            "position": [-300, -60],
             "scale": 0.5,
             "antialiased": true,
             "scroll_Factor": [0.5,0.5],
