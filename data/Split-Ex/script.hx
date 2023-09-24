@@ -25,7 +25,7 @@ import flixel.group.FlxSpriteGroup;
     blu.scale.set(0.5, 0.5);
 
     var floor1 = new FlxSprite(60,240);
-    setSpriteImage(floo1, "BGNight");
+    setSpriteImage(floor1, "BGNight");
     floor1.scrollFactor.set(0.75,0.75);
     floor1.scale.set(0.5, 0.5);
 
