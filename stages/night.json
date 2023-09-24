@@ -17,7 +17,7 @@
             "position": [-300, -120],
             "scale": 0.5,
             "antialiased": true,
-            "scroll_Factor": [0.5,0.5],
+            "scroll_Factor": [0.75,0.75],
             "color": [255,255,255],
             "uses_Frame_Width": false,
             "front": true,
