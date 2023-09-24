@@ -36,12 +36,12 @@ function onCreate() {
     game.insert(game.members.indexOf(getLowestCharacterGroup()), mini);
     game.insert(game.members.indexOf(getLowestCharacterGroup()), floor1);
 
-    boyfriend.x = 950;
-    boyfriend.y = 270;
-    gf.x = 990;
-    gf.y = 240;
-    dad.x = 150;
-    dad.y = 189;
+    game.boyfriend.x = 950;
+    game.boyfriend.y = 270;
+    game.gf.x = 990;
+    game.gf.y = 240;
+    game.dad.x = 150;
+    game.dad.y = 189;
 }
 
 function getLowestCharacterGroup():FlxSpriteGroup
