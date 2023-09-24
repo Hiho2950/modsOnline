@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-210
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Scared"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GF_Standing_Sway",
+	"position": [
+		160,
+		30
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

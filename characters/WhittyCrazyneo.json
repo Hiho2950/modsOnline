@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Whitty idle"
+		},
+		{
+			"offsets": [
+				134,
+				-124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Whitty Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				137,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Whitty Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				74,
+				110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Whitty Sing Note UP"
+		},
+		{
+			"offsets": [
+				140,
+				-80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "whitty sing note right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/WhittyCrazyneo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "WhittyCrazyneo",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		80,
+		140
+	],
+	"camera_position": [
+		10,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
