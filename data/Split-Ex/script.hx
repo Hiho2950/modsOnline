@@ -45,7 +45,7 @@ function onSongStart() {
     game.dad.y = 189;
 }
 
-function getLowestCharacterGroup():FlxSpriteGroup
+function getLowestCharacterGroup()
 {
     var group:FlxSpriteGroup = game.gfGroup;
     var pos:Int = game.members.indexOf(group);
