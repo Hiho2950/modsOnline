@@ -31,11 +31,11 @@ function onCreate() {
     floor1.scrollFactor.set(0.75,0.75);
     floor1.scale.set(0.5, 0.5);
 
-    game.add(sky);
-    game.add(floor2);
-    game.add(blu);
-    game.add(mini);
-    game.add(floor1);
+    add(sky);
+    add(floor2);
+    add(blu);
+    add(mini);
+    add(floor1);
 }
 function onSongStart() {
     boyfriend.x = 950;
@@ -44,6 +44,7 @@ function onSongStart() {
     gf.y = 240;
     dad.x = 150;
     dad.y = 189;
+    remove(gf);
 }
 
 function getLowestCharacterGroup()
