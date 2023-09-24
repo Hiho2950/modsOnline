@@ -1,6 +1,6 @@
 import flixel.group.FlxSpriteGroup;
 
-function onSongStart() {
+function onCreate() {
     var sky = new FlxSprite(-300, -60);
     setSpriteImage(sky, "BG1");
     sky.scrollFactor.set(0.5,0.5);
