@@ -1,4 +1,5 @@
 import flixel.group.FlxSpriteGroup;
+import flixel.FlxSprite;
 
 function onCreate() {
     var sky = new FlxSprite(-300, -60);
@@ -37,12 +38,12 @@ function onCreate() {
     game.add(floor1);
 }
 function onSongStart() {
-    game.boyfriend.x = 950;
-    game.boyfriend.y = 270;
-    game.gf.x = 990;
-    game.gf.y = 240;
-    game.dad.x = 150;
-    game.dad.y = 189;
+    boyfriend.x = 950;
+    boyfriend.y = 270;
+    gf.x = 990;
+    gf.y = 240;
+    dad.x = 150;
+    dad.y = 189;
 }
 
 function getLowestCharacterGroup()
