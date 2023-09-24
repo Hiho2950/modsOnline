@@ -1,6 +1,5 @@
 import flixel.group.FlxSpriteGroup;
 
-function onCreate() {
     var sky = new FlxSprite(-300, -60);
     setSpriteImage(sky, "BG1");
     sky.scrollFactor.set(0.5,0.5);
@@ -42,7 +41,6 @@ function onCreate() {
     game.gf.y = 240;
     game.dad.x = 150;
     game.dad.y = 189;
-}
 
 function getLowestCharacterGroup():FlxSpriteGroup
 {
