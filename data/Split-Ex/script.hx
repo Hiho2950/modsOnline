@@ -35,7 +35,8 @@ function onCreate() {
     game.insert(game.members.indexOf(getLowestCharacterGroup()), blu);
     game.insert(game.members.indexOf(getLowestCharacterGroup()), mini);
     game.insert(game.members.indexOf(getLowestCharacterGroup()), floor1);
-
+}
+function onSongStart() {
     game.boyfriend.x = 950;
     game.boyfriend.y = 270;
     game.gf.x = 990;
