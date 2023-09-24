@@ -11,6 +11,30 @@
             "front": true,
             "file_Name": "BG1",
             "is_Animated": false
+        },
+        {
+            "name": "floor2",
+            "position": [-300, -120],
+            "scale": 0.5,
+            "antialiased": true,
+            "scroll_Factor": [0.5,0.5],
+            "color": [255,255,255],
+            "uses_Frame_Width": false,
+            "front": true,
+            "file_Name": "BG2",
+            "is_Animated": false
+        },
+        {
+            "name": "floor1",
+            "position": [60,240],
+            "scale": 0.5,
+            "antialiased": true,
+            "scroll_Factor": [0.75,0.75],
+            "color": [255,255,255],
+            "uses_Frame_Width": false,
+            "front": true,
+            "file_Name": "BGNight",
+            "is_Animated": false
         }
     ],
 
