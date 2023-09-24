@@ -1,18 +1,24 @@
 {
-    "objects": [],
+    "objects": [
+        {
+            "name": "sky",
+            "position": [-300,-60],
+            "scale": 0.5,
+            "antialiased": true,
+            "scroll_Factor": [0.5,0.5],
+            "color": [255,255,255],
+            "uses_Frame_Width": false,
+            "front": false,
+            "file_Name": "BG1",
+            "is_Animated": false
+        }
+    ],
 
-    "directory": "",
-    "defaultZoom": 0.9,
-    "isPixelStage": false,
-    "stageUI": "normal",
+	"directory": "",
+	"defaultZoom": 0.9,
+	"isPixelStage": false,
 
-    "boyfriend": [770, 100],
-    "girlfriend": [400, 130],
-    "opponent": [100, 100],
-    "hide_girlfriend": false,
-
-    "camera_boyfriend": [0, 0],
-    "camera_opponent": [0, 0],
-    "camera_girlfriend": [0, 0],
-    "camera_speed": 1
+	"boyfriend": [950, 270],
+	"girlfriend": [990, 240],
+	"opponent": [150,189]
 }
