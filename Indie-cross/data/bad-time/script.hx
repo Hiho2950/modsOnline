@@ -23,9 +23,9 @@ function noteMiss(note) {
 
 function onUpdate(elapsed) {
     if (curStep == 520 || curStep == 928 || curStep == 1440) {
-        game.modchartSprites.get("BGSans").animation.play("bg2");
+        //game.modchartSprites.get("BGSans").animation.play("bg2");
     }
     if (curStep == 768 || curStep == 1184) {
-        game.modchartSprites.get("BGSans").animation.play("bg1");
+        //game.modchartSprites.get("BGSans").animation.play("bg1");
     }
 }
