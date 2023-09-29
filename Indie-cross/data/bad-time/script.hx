@@ -16,9 +16,9 @@ function onCreate() {
 }
 
 function goodNoteHit(note) {
-    if (note.noteType == "BlueBoneNote") geme.health -= 0.4;
+    if (note.noteType == "BlueBoneNote") game.health -= 0.4;
 }
 
 function noteMiss(note) {
-    if (note.noteType == "OrangeBoneNote") geme.health -= 0.4;
+    if (note.noteType == "OrangeBoneNote") game.health -= 0.4;
 }
