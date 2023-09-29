@@ -7,7 +7,7 @@ function onCreate() {
             note.b = 0xFF0000FF;
         }
         if (note.noteType == "OrangeBoneNote") {
-            note.ignoreNote = true;
+            note.ignoreNote = false;
             note.r = 0xFFFFFFFF;
             note.g = 0xFFFFA500;
             note.b = 0xFFFFA500;
