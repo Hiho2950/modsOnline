@@ -1,15 +1,15 @@
 function onSpawnNote(note) {
     if (note.noteType == "BlueBoneNote") {
         note.ignoreNote = true;
-        note.r = 0xFFFFFFFF;
-        note.g = 0xFF0000FF;
-        note.b = 0xFF0000FF;
+        note.rgbShader.r = 0xFFFFFFFF;
+        note.rgbShader.g = 0xFF0000FF;
+        note.rgbShader.b = 0xFF0000FF;
     }
     if (note.noteType == "OrangeBoneNote") {
         note.ignoreNote = false;
-        note.r = 0xFFFFFFFF;
-        note.g = 0xFFFFA500;
-        note.b = 0xFFFFA500;
+        note.rgbShader.r = 0xFFFFFFFF;
+        note.rgbShader.g = 0xFFFFA500;
+        note.rgbShader.b = 0xFFFFA500;
     }
 }
 
