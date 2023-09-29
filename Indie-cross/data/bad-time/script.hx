@@ -26,6 +26,6 @@ function onUpdate(elapsed) {
         game.modchartSprites.get("bg").animation.play("bg2");
     }
     if (curStep == 768 || curStep == 1184) {
-        game.modchartSprites.get("bg").animation.play("bg2");
+        game.modchartSprites.get("bg").animation.play("bg1");
     }
 }
