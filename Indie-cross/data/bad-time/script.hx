@@ -1,16 +1,16 @@
-function onSongStart() {
-    for (note in unspawnNotes) {
+function onCreatePost() {
+    for (note in game.unspawnNotes) {
         if (note.noteType == "BlueBoneNote") {
             note.ignoreNote = true;
-            note.r = FlxColor.fromString('#FFFFFF');
-            note.g = FlxColor.fromString('#0000FF');
-            note.b = FlxColor.fromString('#0000FF');
+            note.r = 0xFFFFFFFF;
+            note.g = 0xFF0000FF;
+            note.b = 0xFF0000FF;
         }
         if (note.noteType == "OrangeBoneNote") {
             note.ignoreNote = false;
-            note.r = FlxColor.fromString('#FFFFFF');
-            note.g = FlxColor.fromString('#FFA500');
-            note.b = FlxColor.fromString('#FFA500');
+            note.r = 0xFFFFFFFF;
+            note.g = 0xFFFFA500;
+            note.b = 0xFFFFA500;
         }
     }
 }
