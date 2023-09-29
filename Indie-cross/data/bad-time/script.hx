@@ -1,4 +1,4 @@
-function onCreatePost() {
+function onCreate() {
     for (note in game.unspawnNotes) {
         if (note.noteType == "BlueBoneNote") {
             note.ignoreNote = true;
