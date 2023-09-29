@@ -1,5 +1,5 @@
 function onSongStart() {
-    for (note in game.unspawnNotes) {
+    for (note in unspawnNotes) {
         if (note.noteType == "BlueBoneNote") {
             note.ignoreNote = true;
             note.r = FlxColor.fromString('#FFFFFF');
