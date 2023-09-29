@@ -1,6 +1,6 @@
 function onSpawnNote(note) {
     if (note.noteType == "BlueBoneNote") {
-        note.unspawnNotes[i].ignoreNote = true;
+        note.ignoreNote = true;
         note.r = 0xFFFFFFFF;
         note.g = 0xFF0000FF;
         note.b = 0xFF0000FF;
