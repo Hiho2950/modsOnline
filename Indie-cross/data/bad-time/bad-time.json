@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "Saruky",
-		"gfVersion": "gf",
+		"gfVersion": null,
 		"notes": [
 			{
 				"sectionNotes": [
@@ -11761,8 +11761,8 @@
 				]
 			]
 		],
-		"player3": "dad",
-		"song": "Bad-Time",
+		"player3": null,
+		"song": "bad-time",
 		"stage": "Sans-BS",
 		"needsVoices": true,
 		"validScore": true,
