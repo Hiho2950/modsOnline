@@ -20,3 +20,12 @@ function goodNoteHit(note) {
 function noteMiss(note) {
     if (note.noteType == "OrangeBoneNote") game.health -= 0.4;
 }
+
+function onUpdate(elapsed) {
+    if (curStep == 520 || curStep == 928 || curStep == 1440) {
+        game.modchartSprites.get("bg").animation.play("bg2");
+    }
+    if (curStep == 768 || curStep == 1184) {
+        game.modchartSprites.get("bg").animation.play("bg2");
+    }
+}

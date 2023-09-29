@@ -1,5 +1,31 @@
 {
-    "objects": [],
+    "objects": [
+        {
+			"name": "bg",
+			"position": [300,500],
+			"antialiased": true,
+			"color": [255,255,255],
+			"uses_Frame_Width": false,
+			"front": true,
+			"file_Name": "Nightmare-Sans-Stage",
+			"is_Animated": true,
+			"animations" : [
+				{
+					"name": "bg1",
+					"animation_name": "Normal instance 1",
+					"fps": 24,
+					"looped": true
+				},
+				{
+					"name": "bg2",
+					"animation_name": "sdfs instance 1",
+					"fps": 24,
+					"looped": true
+				}
+			],
+			"start_Animation": "bg1"
+	    }
+    ],
     
 	"directory": "",
 	"defaultZoom": 0.95,
