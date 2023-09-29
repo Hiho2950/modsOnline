@@ -1,7 +1,7 @@
 {
     "objects": [
         {
-			"name": "bg",
+			"name": "BGSans",
 			"position": [300,500],
 			"antialiased": true,
 			"color": [255,255,255],
