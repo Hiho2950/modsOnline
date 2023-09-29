@@ -1,16 +1,16 @@
-function onCreate() {
+function onCreatePost() {
     for (note in game.unspawnNotes) {
         if (note.noteType == "BlueBoneNote") {
             note.ignoreNote = true;
-            note.r = 0xFFFFFFFF;
-            note.g = 0xFF0000FF;
-            note.b = 0xFF0000FF;
+            note.r = FlxColor.fromString('#FFFFFF');
+            note.g = FlxColor.fromString('#0000FF');
+            note.b = FlxColor.fromString('#0000FF');
         }
         if (note.noteType == "OrangeBoneNote") {
             note.ignoreNote = false;
-            note.r = 0xFFFFFFFF;
-            note.g = 0xFFFFA500;
-            note.b = 0xFFFFA500;
+            note.r = FlxColor.fromString('#FFFFFF');
+            note.g = FlxColor.fromString('#FFA500');
+            note.b = FlxColor.fromString('#FFA500');
         }
     }
 }
