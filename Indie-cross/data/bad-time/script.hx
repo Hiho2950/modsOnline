@@ -1,4 +1,4 @@
-function onSongStart() {
+function opponentNoteHit() {
     for (i in game.unspawnNotes.length -1) {
         if (game.unspawnNotes[i].noteType == "BlueBoneNote") {
             game.unspawnNotes[i].unspawnNotes[i].ignoreNote = true;
