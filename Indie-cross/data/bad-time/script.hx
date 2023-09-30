@@ -21,6 +21,11 @@ function noteMiss(note) {
     if (note.noteType == "OrangeBoneNote") game.health -= 0.4;
 }
 
+function opponentNoteHit() {
+    game.camGame.shake(0.015,0.1);
+    game.camHUD.shake(0.005,0.1);
+}
+
 function onUpdate(elapsed) {
     if (curStep == 520 || curStep == 928 || curStep == 1440) {
         game.modchartSprites.get("BGSans").animation.play("bg2");
