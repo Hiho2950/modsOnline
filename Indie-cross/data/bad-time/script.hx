@@ -45,7 +45,7 @@ function onCreatePost() {
     game.modchartSprites.get("healthBarP1").cameras = [game.camHUD];
     game.modchartSprites.get("healthBarP1").makeGraphic(game.healthBar.width / 2,game.healthBar.height, 0xFFFFFF00);
     insert(5, game.modchartSprites.get("healthBarP1"));
-
+}
 
 function onUpdate() {
     game.modchartSprites.get("healthBarP2").x = game.healthBar.x;
