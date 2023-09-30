@@ -55,7 +55,7 @@ function onUpdate() {
 
     if (game.health <= 2) {
         game.modchartSprites.get("healthBarP2").scale.set(game.health, game.healthBar.scale.y);
-        game.modchartSprites.get("healthBarP1").scale.set(game.healthBar.scale.x, game.healthBar.y);
+        game.modchartSprites.get("healthBarP1").scale.set(game.healthBar.scale.x, game.healthBar.scale.y);
     }
 
     game.modchartSprites.get("healthBarP2").width = game.healthBar.width;
@@ -63,5 +63,6 @@ function onUpdate() {
 
     game.iconP1.alpha = 0;
     game.iconP2.alpha = 0;
+    game.healthBar.alpha = 0;
     game.healthBar.flipX = true;
 }
