@@ -1,3 +1,6 @@
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+
 function onSpawnNote(note) {
     if (note.noteType == "blue") {
         note.ignoreNote = true;
@@ -19,4 +22,17 @@ function goodNoteHit(note) {
 
 function noteMiss(note) {
     if (note.noteType == "orange") game.health -= 0.4;
+}
+
+function onEvent(name,value1,value2) {
+    if (name == "Smooth cam zoom") {
+        if (value2 == "") game.defaultCamZoom = value1;
+        else {
+            FlxTween.tween(game.camGame, {zoom: value1}, value2, {ease: FlxEase.sineInOut,
+				onComplete: function(twn:FlxTween) {
+					game.defaultCamZoom = game.camGame.zoom;
+				}
+			});
+        }
+    }
 }
