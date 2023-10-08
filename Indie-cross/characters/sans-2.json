@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				42,
+				-237
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left 02 instance 1"
+		},
+		{
+			"offsets": [
+				-16,
+				-253
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down 02 instance 1"
+		},
+		{
+			"offsets": [
+				32,
+				-209
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up 02 instance 1"
+		},
+		{
+			"offsets": [
+				-23,
+				-240
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right 02 instance 1"
+		},
+		{
+			"offsets": [
+				-4,
+				-238
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Sans FNF instance 1"
+		},
+		{
+			"offsets": [
+				16,
+				-239
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "yeet",
+			"loop": false,
+			"name": "Switch to UT mode instance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sans",
+	"position": [
+		-130,
+		-60
+	],
+	"healthicon": "sans-2",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		260,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
