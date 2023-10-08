@@ -2,7 +2,7 @@
     "objects": [
         {
 			"name": "stage",
-			"position": [-300,-150],
+			"position": [-500, -150],
 			"antialiased": true,
 			"color": [255,255,255],
 			"uses_Frame_Width": false,
