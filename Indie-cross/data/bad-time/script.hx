@@ -36,10 +36,10 @@ function onUpdate(elapsed) {
         game.modchartSprites.get("BGSans").animation.play("bg1");
     }
 }
-
+importLibrary("flixel.ui.FlxBar");
+var bar:FlxBar
 function onCreatePost() {
-    importLibrary("flixel.ui.FlxBar");
-    var bar = new FlxBar(game.healthBar.x, game.heathBar.y, LEFT_TO_RIGHT, game.healthBar.width, game.healthBar.height, null, "", 0, 2, false);
+    bar = new FlxBar(game.healthBar.x, game.heathBar.y, LEFT_TO_RIGHT, game.healthBar.width, game.healthBar.height, null, "", 0, 2, false);
     bar.createFilledBar(0xFFFF0000, 0xFFFFFF00);
     insert(4, bar);
 }
