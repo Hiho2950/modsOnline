@@ -24,15 +24,19 @@ function noteMiss(note) {
     if (note.noteType == "orange") game.health -= 0.4;
 }
 
-function onEvent(name,value1,value2) {
+function onEvent(name,valuef,values) {
     if (name == "Smooth cam zoom") {
-        if (value2 == "") game.defaultCamZoom = value1;
+        if (value2 == "") game.defaultCamZoom = valuef;
         else {
-            FlxTween.tween(game.camGame, {zoom: value1}, value2, {ease: FlxEase.sineInOut,
+            FlxTween.tween(game.camGame, {zoom: valuef}, values, {ease: FlxEase.sineInOut,
 				onComplete: function(twn:FlxTween) {
 					game.defaultCamZoom = game.camGame.zoom;
 				}
 			});
         }
+    }
+	if (name == 'Blackout') {
+		game.camGame.flash(CoolUtil.colorFromString(valuef), values, null,true);
+        game.camHUD.flash(CoolUtil.colorFromString(valuef), values, null,true);
     }
 }
