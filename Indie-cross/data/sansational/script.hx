@@ -17,11 +17,11 @@ function onSpawnNote(note) {
 }
 
 function goodNoteHit(note) {
-    if (note.noteType == "blue") game.health -= 0.4;
+    if (note.noteType == "blue" && !note.isSustainNote) game.health -= 0.4;
 }
 
 function noteMiss(note) {
-    if (note.noteType == "orange") game.health -= 0.4;
+    if (note.noteType == "orange" && !note.isSustainNote) game.health -= 0.4;
 }
 
 function onEvent(name,valuef,values) {
