@@ -40,3 +40,8 @@ function onEvent(name,valuef,values) {
         game.camHUD.flash(CoolUtil.colorFromString(valuef), values, null,true);
     }
 }
+
+function onBeatHit() {
+    game.camGame.flash(0xFF000000, 0.3, null,true);
+    game.camHUD.flash(0xFF000000, 0.1, null,true);
+}
