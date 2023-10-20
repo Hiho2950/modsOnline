@@ -1,4 +1,5 @@
 import flixel.ui.FlxBar;
+import flixel.ui.FlxBar.FlxBarFillDirection;
 
 function onSpawnNote(note) {
     if (note.noteType == "BlueBoneNote") {
@@ -37,6 +38,7 @@ function onUpdate(elapsed) {
     }
 }
 importLibrary("flixel.ui.FlxBar");
+importLibrary("flixel.ui.FlxBar.FlxBarFillDirection");
 var bar = new FlxBar(100, 100, LEFT_TO_RIGHT, 720, 50, null, "", 0, 2, false);
 function onCreatePost() {
     bar.createFilledBar(0xFFFF0000, 0xFFFFFF00);
