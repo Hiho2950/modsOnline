@@ -37,7 +37,7 @@ function onUpdate(elapsed) {
     }
 }
 importLibrary("flixel.ui.FlxBar");
-var bar = new FlxBar(game.healthBar.x, game.heathBar.y, LEFT_TO_RIGHT, game.healthBar.width, game.healthBar.height, null, "", 0, 2, false);
+var bar = new FlxBar(100, 100, LEFT_TO_RIGHT, 720, 50, null, "", 0, 2, false);
 function onCreatePost() {
     bar.createFilledBar(0xFFFF0000, 0xFFFFFF00);
     insert(4, bar);
