@@ -29,6 +29,16 @@ function opponentNoteHit() {
     game.camHUD.shake(0.005,0.1);
 }
 
+function goodNoteHit(i){
+    game.playerStrums.members[i.noteData].rgbShader.r = i.rgbShader.r;
+    game.playerStrums.members[i.noteData].rgbShader.b = i.rgbShader.b;
+}
+
+function opponentNoteHit(i){
+    game.opponentStrums.members[i.noteData].rgbShader.r = i.rgbShader.r;
+    game.opponentStrums.members[i.noteData].rgbShader.b = i.rgbShader.b;
+}
+
 function onUpdate(elapsed) {
     if (curStep == 520 || curStep == 928 || curStep == 1440) {
         game.modchartSprites.get("BGSans").animation.play("bg2");
