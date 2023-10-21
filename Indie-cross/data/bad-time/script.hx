@@ -39,7 +39,7 @@ function onUpdate(elapsed) {
 }
 importLibrary("flixel.ui.FlxBar");
 importLibrary("flixel.ui.FlxBar.FlxBarFillDirection");
-var bar = new FlxBar(100, 100, FlxBarFillDirection.LEFT_TO_RIGHT, 720, 50, null, "", 0, 2, false);
+var bar = new FlxBar(100, 100, null, 720, 50, null, "", 0, 2, false);
 function onCreatePost() {
     bar.createFilledBar(0xFFFF0000, 0xFFFFFF00);
     insert(4, bar);
